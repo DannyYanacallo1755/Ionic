@@ -7,6 +7,17 @@ import { Component } from '@angular/core';
 })
 export class Tab1Page {
 
+  nombre: string = 'Danny Yanacallo';
+  educacion: any[] = [
+    { puesto: 'Colegio Técnico "Pedro Echeverría Terán', empresa: 'Bachillerato' },
+    { puesto: 'Escuela Politécnica Nacional', empresa: 'Tecnología Superior en Desarrollo de Software' },
+  ];
+  idiomas: any[] = [
+    { idioma: 'Ingles', nivel: 'Intermedio' },
+    { idioma: 'Espanol', nivel: 'Nativo' },
+  ];
+
+
   constructor() {}
 
 }

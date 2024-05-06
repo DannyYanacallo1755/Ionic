@@ -1,0 +1,35 @@
+.perfil {
+  margin-top: 20px;
+}
+
+.foto-perfil {
+  width: 150px; /* Ajusta el tamaño de la foto según tu preferencia */
+  height: 150px; /* Ajusta el tamaño de la foto según tu preferencia */
+  object-fit: cover; /* Asegura que la foto cubra todo el área del círculo */
+  border-radius: 50%; /* Hace que la foto tenga forma de círculo */
+  border: 2px solid #007bff; /* Añade un borde azul alrededor de la foto */
+}
+
+.seccion {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.seccion h3 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.experiencia {
+  border-left: 4px solid #007bff;
+  padding-left: 10px;
+}
+
+.experiencia h4 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.experiencia p {
+  color: #666;
+}
